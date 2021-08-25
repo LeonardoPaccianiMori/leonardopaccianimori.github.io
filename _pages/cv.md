@@ -15,20 +15,23 @@ Here you can find my CV, which can also be downloaded as a [pdf file](/files/CV_
 <table>
   <tr>
     <td width="35%"><div align="right">Mar 1st 2021 - Present day<br>
-    <img src="/images/UCSD_seal.png" width="150"></div></td>
+    <img src="/images/UCSD_seal.png" width="160"></div></td>
     <td width="65%">Postdoctoral researcher<br>
     <b>University of California, San Diego</b><br>
     Department of Physics<br>
-    <b>Supervisor: </b> Terence Hwa<br><br><br>
+    <b>Supervisor: </b> Terence Hwa<br>
+    <img src="/images/empty-space.png" width="80" height="80">
     </td>
   </tr>
   <tr>
     <td width="35%"><div align="right">Apr 1st - Sep 30th 2019<br>
-		<img src="/images/Harvard_logo.png" width="150"></div></td>
+		<img src="/images/Harvard_logo.png" width="160"></div></td>
     <td width="65%">Fellow of the Department of Physics<br>
     <b>Harvard University</b><br>
     Department of Physics<br>
-    <b>Supervisors: </b> Andrea Giometto, Andrew Murray, David Nelson<br><br><br>
+    <b>Supervisors: </b> Andrea Giometto, Andrew Murray, David Nelson
+
+    <img src="/images/empty-space.png" width="75" height="75">
     </td>
   </tr>
 </table>
@@ -39,30 +42,31 @@ Here you can find my CV, which can also be downloaded as a [pdf file](/files/CV_
 <table>
   <tr>
     <td width="35%"><div align="right">Oct 1st 2017 - Dec 16th 2020<br>
-	   <img src='/images/uniPD_logo.png' width="150"></div></td>
+	   <img src='/images/uniPD_logo.png' width="160"></div></td>
        <td width="65%">Ph.D in <i>Physics</i>, University of Padua<br>
        <b>Thesis title:</b> <i>Two improved approaches to the study of competition in microbial communities</i><br>
        <b>Tutor:</b> Flavio Seno<br>
 	      <b>Supervisor:</b> Amos Maritan<br>
-		   <b>Co-supervisor:</b> Samir Suweis<br>
+		   <b>Co-supervisor:</b> Samir Suweis<br><br>
    </td>
   </tr>
   <tr>
     <td width="35%"><div align="right">Oct 1st 2015 - Sep 26th 2017<br>
-		<img src="/images/uniPD_logo.png" width="150"></div></td>
+		<img src="/images/uniPD_logo.png" width="160"></div></td>
 		<td width="65%">M.Sc. in <i>Physics</i>, University of Padua<br>
       <b>Thesis title:</b> <i>A physics approach to ecosystem dynamics</i><br>
 	 		<b>Advisor:</b> Amos Maritan<br>
-      <b>Final grade:</b> 110/110 cum laude<br><br>
+      <b>Final grade:</b> 110/110 cum laude<br>
+      <img src="/images/empty-space.png" width="80" height="80">
     </td>
   </tr>
   <tr>
     <td width="35%"><div align="right">Oct 1st 2012 - Jul 22nd 2015<br>
-			<img src="/images/uniPD_logo.png" width="150"></div></td>
+			<img src="/images/uniPD_logo.png" width="160"></div></td>
 		<td width="65%">B.Sc. in <i>Physics</i>, University of Padua<br>
       <b>Thesis title:</b> <i>Curvature effect on patterning dynamics on spherical membranes</i><br>
 	 		<b>Advisor:</b> Enzo Orlandini<br>
-      <b>Final grade:</b> 108/110<br>
+      <b>Final grade:</b> 108/110<br><br><br>
     </td>
   </tr>
 </table>
@@ -74,11 +78,34 @@ Here you can find my CV, which can also be downloaded as a [pdf file](/files/CV_
   {% endfor %}</ul>
 
 
+## Funding
+  <font size="5">
+  <table>
+  <tr>
+  <td width="35%"><div align="right">Mar 1st 2022 - Feb 28th 2025<br>
+  <img src="/images/Simons-logo.png" width="235"></div></td>
+     <td width="65%"><b>Simons Foundation</b><br>
+     Total amount awarded: &#36; 270,000.00<br>
+     <i>Postdoctoral Fellowship in Marine Microbial Ecology</i><br>
+     <a href="https://www.simonsfoundation.org/grant/simons-postdoctoral-fellowships-in-marine-microbial-ecology/" target="_blank">Website</a><br>
+  </td>
+  </tr>
+
+    <tr>
+      <td width="35%"><div align="right">Oct 1st 2017 - Sep 30th 2020<br>
+      <img src="/images/Cariparo-logo.png" width="225"></div></td>
+         <td width="65%"><b>Fondazione Cariparo</b><br>
+         Total amount awarded: &#8364; 74,768.88<br>
+         <i>Fellowship awarded each year to the candidate who ranks first in the selection process of the PhD School in Physics</i><br>
+     </td>
+    </tr>
+  </table>
+  </font>
+
 ## Attended conferences, workshops and schools
 <ul>{% for post in site.wsc reversed %}
   {% include archive-single-workshop-cv.html %}
 {% endfor %}</ul>
-
 
 ## Organized conferences, workshops and schools
 * <a href="https://liphlab.github.io/SMEEB2021/" target="_blank">Stochastic Models and Experiments in Ecology and Biology</a>, *European Center for Living Technology, Ca’ Foscari University of Venice*, June 22nd - 25th 2021
@@ -87,19 +114,25 @@ Here you can find my CV, which can also be downloaded as a [pdf file](/files/CV_
 * Sei Spritz Facili, *University of Padua, Department of Physics*, October 2016 - May 2017
   <ul> <li style="list-style-type: none;">Series of six lectures covering the areas over which research is carried out in the Department. Activity of the Padua Local Committee of the Italian Association of Physics Students</li> </ul>
 
-## Honors and awards
-* **Best contributed talk**, during the *4th Italian Conference of Physics Students*
-* **Best poster**, during the *5th Italian Conference of Physics Students*
-
 ## Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
+
+## Journals for which I've acted as reviewer
+PLoS Computational Biololgy, Nature Communications, Physical Review E.
+
+
 ## Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv-backup.html %}
   {% endfor %}</ul>
+
+
+## Honors and awards
+  * **Best contributed talk**, during the *4th Italian Conference of Physics Students*
+  * **Best poster**, during the *5th Italian Conference of Physics Students*
 
 ## Service and memberships
 * Member of the [Association of PhD students and graduates in Italy](https://dottorato.it/){:target="_blank"}<!--_-->, 22nd October 2019 - Present day
